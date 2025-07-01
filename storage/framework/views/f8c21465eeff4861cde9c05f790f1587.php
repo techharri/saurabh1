@@ -1,0 +1,2 @@
+<?php echo $__env->make('admin.include.header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+<?php echo $__env->yieldContent('section'); ?><?php /**PATH C:\xampp\htdocs\saurabh\resources\views/admin/include/container.blade.php ENDPATH**/ ?>

@@ -1,0 +1,29 @@
+@extends('admin.include.container')
+@push('title')
+    <title>Student</title>
+@endpush
+@section('section')
+<h2>Students</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Student</th>
+            <th>Email</th>
+            <th>Contact</th>
+            <th>Date</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach ($students as $student)
+        <tr>
+            <td>{{$student->s_id}}</td>
+            <td>{{$student->student}}</td>
+            <td>{{$student->email}}</td>
+            <td>{{$student->contact}}</td>
+            <td>{{$student->created_at}}</td>
+        </tr>
+    @endforeach
+    </tbody>
+</table>
+@endsection
