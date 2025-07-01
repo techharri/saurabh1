@@ -1,0 +1,146 @@
+@media (max-width:660.6px) and (min-width: 150px) {
+    .top_head{
+        display: block;
+        position: relative;
+        background-color: rgb(6, 87, 180);
+        padding: 0.2em;
+        align-items: center;
+    }
+nav{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+nav .logo p{
+    display: block;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: #096b76;
+    color: white;
+    padding: 0.2em;
+    border-radius: 0.2em;
+    }
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    background-color: rgb(226, 220, 220);
+    left: -100%;
+    top: 4em;
+    padding: 0.5em;
+}
+nav ul li{
+    width: 100%;
+    display: flex;
+}
+nav ul li:hover{
+    width: 100%;
+    background-color: white;
+}
+nav ul li:hover ul{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: -1em;
+    top: 0.2em;
+    left: 0;
+    border: none;
+    background-color: rgb(206, 209, 212);
+}
+nav ul li:hover ul li{
+    display: flex;
+    flex-direction: none;
+}
+nav ul li ul li:hover{
+    background-color: rgb(9, 75, 123);
+    width: 100%;
+}
+nav ul li ul li:hover a{
+    color: white;
+}
+#btnshow{
+display:flex;
+position: absolute;
+align-items: center;
+right: 2em;
+top: 1.2em;
+color: black;
+}
+nav ul li{
+display: block;
+}
+#check:checked ~ ul{
+left: 0;
+}
+.contact{
+    display: block;
+    position: relative;
+    width: 100%;
+}
+.contact-map{
+    display: block;
+    position: relative;
+    width: 100%;
+    padding: 0.5em;
+}
+.contact-detail{
+    display: block;
+    position: relative;
+    width: 100%;
+    padding: 0.5em;
+}
+footer{
+    display: block;
+    position: relative;
+    width: 100%;
+    background-color: rgb(209, 203, 203);
+    padding: 0.2em;
+    margin-top: 5em;
+}
+.footer-1{
+    border-top: 1px solid black;
+    border-left: none;
+    padding: 0.5em;
+}
+#contain{
+    display: block;
+    padding: 0.5em;
+    padding-top: 2em;
+    position: relative;
+    margin: 3em auto;
+    width: 100%;
+    font-size: small;
+    line-height: 2em;
+    top:5em;
+}
+img{
+    width: 100%;
+}
+.about {
+    display: block;
+}
+.about-img img {
+    border-radius: 25% 25%;
+    display: block;
+    width: 25em;
+    margin: auto;
+}
+iframe{
+    width:100%;
+}
+.left_top {
+    padding: 0.5em;
+    display: block;
+}
+.right_top {
+    background: black;
+    justify-content: center;
+    position: relative;
+    display: flex;
+}
+}
